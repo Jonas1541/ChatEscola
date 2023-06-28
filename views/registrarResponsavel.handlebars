@@ -1,0 +1,21 @@
+<form action="/user/register" method="POST">
+  <label for="name">Nome:</label>
+  <input type="text" id="name" name="name" required> <br>
+  
+  <label for="password">Senha:</label>
+  <input type="password" id="password" name="password" required> <br>
+  
+  <label for="address">Endereço:</label>
+  <input type="text" id="address" name="address" required> <br>
+  
+  <label for="phone">Telefone:</label>
+  <input type="tel" id="phone" name="phone" required> <br>
+  
+  <label for="funcao">Função:</label>
+  <select id="funcao" name="funcao" required>
+    <option value="Responsável">Responsável</option>
+    <option value="Diretor(a)">Diretor(a)</option>
+  </select> <br>
+  
+  <input type="submit" value="Enviar">
+</form>
