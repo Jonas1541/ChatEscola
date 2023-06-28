@@ -75,6 +75,19 @@ module.exports = class UserController {
           res.status(500).json({ message: 'Erro ao listar os usuários' });
         }
       }
+
+
+    static async cadastros(req, res) {
+      res.render('cadastros');
+    }
+
+    static async registrarResponsavel(req, res) {
+      res.render('registrarResponsavel');
+    }
+
+    static async registrarAluno(req, res) {
+      res.render('registrarAluno');
+    }
       
     
       static async login(req, res) {
